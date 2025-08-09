@@ -69,9 +69,13 @@ age = 25
 print(f"\nMy name is {name} and I am {age} years old.")
 
 # -------------------------------
-# Escape Characters
+# Escape Characters : "\"
 # -------------------------------
 print("\n--- Escape Characters ---")
 print("Line break:\nHello")         # \n → new line
 print("Tab space:\tPython")         # \t → tab space
 print("Quote inside string: \"Hi\"") # \" → double quote inside
+
+# Length of the string
+fruit = "My favourite fruit is Mango"
+print("The length of this string is:",len(fruit))
