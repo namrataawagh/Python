@@ -3,6 +3,8 @@
 # -------------------------------
 
 # Strings are sequences of characters enclosed in single (' '), double (" "), or triple quotes (''' ''' or """ """)
+# Strings are Immutable: Can't use indexing to change indiviual elements of string
+
 str1 = 'Hello'
 str2 = "Python"
 str3 = """This is
@@ -66,8 +68,10 @@ print("Ends with 'ing':", msg.endswith("ing"))
 # -------------------------------
 name = "Alice"
 age = 25
+result = 100/77
 print(f"\nMy name is {name} and I am {age} years old.")
-
+print("Hello i am {}".format('Namrata'))
+print("The result is {r:10.3f}".format(r=result))
 # -------------------------------
 # Escape Characters : "\"
 # -------------------------------
