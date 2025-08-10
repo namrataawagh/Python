@@ -5,6 +5,7 @@
 # Dictionaries store data in key-value pairs
 # Keys are unique and immutable (string, number, tuple)
 # Values can be of any data type
+# Dictionaries do not retain order
 
 # Creating a dictionary
 my_dict = {
