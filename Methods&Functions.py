@@ -78,3 +78,41 @@ def even_check1(num_list):
     return [list(print(f'{i} is even') for i in num_list if i % 2 == 0)]
 
 even_check1([1, 2, 3, 4])  # Prints "2 is even" and "4 is even"
+
+
+
+## Tuple unpacking with functions
+
+# Stock prices
+stock_prices = [
+    ('APPLE', 200),
+    ('GOOGLE', 400),
+    ('MICROSOFT', 100)
+]
+
+for item, price in stock_prices:
+    print(item, price)
+
+# Work hours
+work_hours = [
+    ('Abby', 100),
+    ('Billy', 400),
+    ('Cassie', 800)
+]
+
+def employee_check(work_hours):
+    current_max = 0
+    employee_of_month = ''
+
+    for employee, hours in work_hours:
+        if hours > current_max:
+            current_max = hours
+            employee_of_month = employee
+        else:
+            pass
+
+    return (employee_of_month, current_max)
+
+# Call function and print result
+c = employee_check(work_hours)
+print(c)
