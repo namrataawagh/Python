@@ -71,3 +71,5 @@ print(flat)
 # List comprehension way
 flat = [val for row in matrix for val in row]
 print(flat)
+
+
